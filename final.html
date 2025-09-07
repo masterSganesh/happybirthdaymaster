@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Magic Birthday Book by N.KAILASH</title>
     <link rel="icon" type="image/png" href="master.png">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <style>
         * {
             margin: 0;
@@ -299,9 +301,71 @@
 .cardFront, .cardInside {
     padding: 10px; /* Reduced from 30px */
 }
+footer {
+    background: linear-gradient(to right, #00d2ff, #3a7bd5, #8e44ad, #ff00cc);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.4);
+}
 
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
+.social-icons {
+    margin-bottom: 10px;
+}
 
+.social-icons a {
+    color: white;
+    margin: 0 15px;
+    font-size: 28px;
+    text-decoration: none;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a.linkedin:hover {
+  color: #0a66c2;
+}
+.social-icons a.whatsapp:hover {
+  color: #25D366;
+  text-shadow: 0 0 10px #25D366, 0 0 20px #25D366;
+  animation: pulseGlow 1.5s infinite
+}
+.social-icons a.github:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
+  animation: pulseGlow 1.5s infinite
+}
+
+.social-icons a.instagram:hover {
+  color: #e1306c;
+  text-shadow: 0 0 10px #e1306c, 0 0 20px #e1306c;
+  animation: pulseGlow 1.5s infinite
+}
+
+.social-icons a.twitter:hover {
+  color: #1da1f2;
+}
+.social-icons .youtube:hover {
+  color: #ff0000;
+}
+
+.social-icons a.resume:hover {
+  color: #00ffcc;
+}
+footer p {
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
     </style>
 </head>
 
@@ -340,7 +404,20 @@
             </div>
         </div>
     </div>
+    
+<footer>
+  <div class="footer-container">
+    <div class="social-icons">
+      <a href="https://www.instagram.com/kailash_.kanth" target="_blank" class="icon instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://wa.me/918489091701" target="_blank" class="icon whatsapp"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://www.youtube.com" target="_blank" class="icon youtube"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.linkedin.com" target="_blank" class="icon linkedin"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com" target="_blank" class="icon github"><i class="fab fa-github"></i></a>
+      <a href="https://twitter.com" target="_blank" class="icon twitter"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p>&copy; 2025 Magic Birthday Book | Created by N.Kailash</p>
     <img src="cat.gif" alt="cat" class="cat">
-
+  </div>
+</footer>
 </body>
 </html>
